@@ -2,14 +2,17 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
-	entry: "./entry",
+	entry: './app',
 	output: {
 		path: __dirname + '/dist',
-		filename: "bundle.js"
+		filename: 'bundle.js'
 	},
 	module: {
 		loaders: [
-			{ test: /\.css$/, loader: 'style!css'}
+			{ test: /\.css$/, loader: 'style!css' },
+			{
+				test: /\.jsx?$/, exclude: /(node_modules|bower_components)/, loader: 'babel', query: { presets: ['es2015', 'stage-0', 'react'] }
+			}
 		]
 	},
 	plugins: [
