@@ -1,14 +1,24 @@
 {
-  "name": "Rusty Hammers",
+  "name": "rusty-hammers",
   "version": "0.0.0",
   "description": "Daily workout",
   "main": "entry.js",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/melnik88/rusty-hammers.git"
+  },
   "dependencies": {
     "css-loader": "^0.23.1",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.22.0",
     "milligram": "^1.1.0",
     "node-static": "^0.7.8",
+    "react": "^15.3.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1"
   },
@@ -17,5 +27,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Egor Firsov",
-  "license": "MIT"
+  "license": "(MIT OR Apache-2.0)"
 }
