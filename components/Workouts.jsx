@@ -7,7 +7,7 @@ const Workouts = ({
 	tableId
 	}) => {
 	return (
-	<section id={tableId} class="container">
+	<section id={tableId} className="container">
 		<h3>Задание на неделю</h3>
 		<table>
 			<thead>
