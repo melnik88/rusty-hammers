@@ -14,7 +14,8 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: 'Rusty Hammers'
+			title: 'Rusty Hammers',
+			template: 'index.html'
 		})
 	],
 	watch: true

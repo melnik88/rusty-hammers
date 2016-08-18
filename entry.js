@@ -1,4 +1,5 @@
 require('./node_modules/milligram/dist/milligram.min.css');
+require('./style.css');
 
 document.write(`
 <main class="wrapper">
@@ -26,48 +27,48 @@ document.write(`
         <table>
             <thead>
             <tr>
-                <th>задание</th>
-                <th>количество повторов</th>
+                <th>Задание</th>
+                <th>Количество повторов</th>
             </tr>
             </thead>
             <tr>
-                <td>приседания</td>
+                <td>Приседания</td>
                 <td>1000</td>
             </tr>
             <tr>
-                <td>отжимания</td>
-                <td>1000</td>
+                <td>Отжимания</td>
+                <td>500</td>
             </tr>
             <tr>
-                <td>подтягивания</td>
+                <td>Подтягивания</td>
                 <td>250</td>
             </tr>
             <tr>
-                <td>берпи</td>
+                <td>Берпи</td>
                 <td>250</td>
             </tr>
             <tr>
-                <td>скакалка</td>
+                <td>Скакалка</td>
                 <td>20 мин</td>
             </tr>
             <tr>
-                <td>пресс</td>
+                <td>Пресс</td>
                 <td>1000</td>
             </tr>
             <tr>
-                <td>прыжки на бокс</td>
+                <td>Прыжки на бокс</td>
                 <td>250</td>
             </tr>
             <tr>
-                <td>трицепсы</td>
+                <td>Отжимания на брусьях</td>
                 <td>250</td>
             </tr>
             <tr>
-                <td>планка</td>
+                <td>Планка</td>
                 <td>20 мин</td>
             </tr>
             <tr>
-                <td>подъем по эскалатор пешком</td>
+                <td>Подъем по эскалатор пешком</td>
                 <td>20 лестниц</td>
             </tr>
         </table>
@@ -78,9 +79,10 @@ document.write(`
         <section class="container">
             <h3>Цитата недели</h3>
             <blockquote>
-                <p>Ты не вечен</p>
+                <em>Ты не вечен</em> <br>
+                <small><a href="https://lifehacker.ru/2016/08/15/the-most-motivational-statement/">https://lifehacker.ru/2016/08/15/the-most-motivational-statement/</a></small>
             </blockquote>
-            <p><a href="https://lifehacker.ru/2016/08/15/the-most-motivational-statement/">https://lifehacker.ru/2016/08/15/the-most-motivational-statement/</a>
+
             </p>
     </section>
 
@@ -90,16 +92,16 @@ document.write(`
         <table>
             <thead>
             <tr>
-                <th>Неделя</th>
-                <th>Дни</th>
+                <th>№</th>
+                <th>Даты</th>
                 <th>Упражнение</th>
                 <th>Количество повторов</th>
             </tr>
             <tr>
                 <td>1</td>
-                <td>15-21.08</td>
+                <td>15-21.08.16</td>
                 <td>Приседания</td>
-                <td>250/1000</td>
+                <td>500/1000</td>
             </tr>
             </thead>
         </table>
