@@ -1,3 +1,5 @@
+require('./node_modules/milligram/dist/milligram.min.css');
+
 document.write(`
 <main class="wrapper">
     <section class="container">
