@@ -19,7 +19,7 @@ let Results = (user) => (
                 <td>1</td>
                 <td>15-21.08.16</td>
                 <td>Приседания</td>
-                <td>500/1000</td>
+                <td>700/1000</td>
             </tr>
             </tbody>
         </table>
