@@ -10,11 +10,23 @@ const Workouts = ({
 		{
 			name: 'Приседания',
 			repeats: 1000,
-			description: 'Поставь ноги на ширину плеч. Начни движение вниз, сгибая колени и опуская бедра. Опустись как можно ниже. После того, как колени согнутся чуть ниже, чем на 90 градусов, быстро возвращайся в исходное положение. Держи колени чуть согнутыми, не замыкай суставы. Держи спину и голову прямо на протяжении всего упражнения. Можно смотреть выше линии горизонта. Не отрывай пятки от земли. <a href="http://giphy.com/gifs/mens-health-bodyweight-squat-3o6Ei2vzT1Pl41e28E">Пример упражнения</a>'
+			description: [
+				<a href="http://www.mhealth.ru/form/fitness/uprazhnenija_dna_klassicheskije_prisedanija__smotri_i_uchis/">Приседания - смотри и учись!</a>,
+				<br />,
+				<strong>Прим RH:</strong>,
+				' держи колени чуть согнутыми, не замыкай суставы. Держи спину и голову прямо на протяжении всего упражнения. Можно смотреть выше линии горизонта. Не отрывай пятки от земли.'
+			]
 		}, {
 			name: 'Отжимания',
-			repeats: 500,
-			description: ''
+			repeats: '500/250',
+			description: [
+				<a href="http://www.mhealth.ru/form/fitnessnews/1046019/">Как развить мышцы груди?</a>,
+				<br/>,
+				<a href="http://www.iron-health.ru/tehnika/otzhimaniya-s-kolen-dlya-zhenshhin-texnika-vypolneniya.html">Отжимания с колен для девушек</a>,
+				<br/>,
+				<strong>Прим RH:</strong>,
+				`  девушкам следует начинать с отжиманий с колен и постепенно переходить к полноценным отжиманиям`
+			]
 		}, {
 			name: 'Подтягивания',
 			repeats: 250,
@@ -57,17 +69,17 @@ const Workouts = ({
 				<thead>
 				<tr>
 					<th>Задание</th>
-					<th>Количество повторов</th>
+					<th>Количество повторов(муж/жен)</th>
 					<th>Описание</th>
 				</tr>
-				{
-					workouts.map(() => {
-						return (
-							<tr></tr>
-						)
-					}
-				)
-				}
+				{ workouts.map((item) => (
+						<tr>
+							<td>{item.name}</td>
+							<td>{item.repeats}</td>
+							<td>{item.description}</td>
+						</tr>
+					)
+				)}
 				</thead>
 				<tbody>
 				</tbody>
@@ -75,7 +87,7 @@ const Workouts = ({
 			<p className="float-right">
 				<small>Таблица 1 Упражнение на одну рабочую неделю</small>
 			</p>
-		</section>)
+		</section>);
 };
 
 export default Workouts;
