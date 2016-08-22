@@ -2,7 +2,7 @@ import React from 'react';
 
 let Results = (user) => (
 
-    <section className="container">
+    <section className="container clearfix">
         <h3>Таблица результатов</h3>
         <h4>{user.name}</h4>
         <table>
@@ -29,6 +29,7 @@ let Results = (user) => (
             </tr>
             </tbody>
         </table>
+        <p className='float-right'><small>Таблица 3 Результаты</small></p>
     </section>);
 
 export default Results;
