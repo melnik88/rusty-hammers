@@ -20,7 +20,7 @@ const Workouts = ({
 			]
 		}, {
 			name: 'Отжимания',
-			repeats: '500/250',
+			repeats: '500/350',
 			description: [
 				<a href="http://www.mhealth.ru/form/fitnessnews/1046019/">Как развить мышцы груди?</a>,
 				<br/>,
@@ -71,8 +71,8 @@ const Workouts = ({
 			<table>
 				<thead>
 					<tr>
-						<th>Задание</th>
-						<th>Количество повторов(муж/жен)</th>
+						<th width="15%">Задание</th>
+						<th width="20%">Количество повторов(муж/жен)</th>
 						<th>Описание</th>
 					</tr>
 				</thead>
