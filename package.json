@@ -1,6 +1,6 @@
 {
   "name": "rusty-hammers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Daily workout",
   "main": "entry.js",
   "repository": {
@@ -8,6 +8,15 @@
     "url": "https://github.com/melnik88/rusty-hammers.git"
   },
   "dependencies": {
+    "milligram": "^1.1.0",
+    "node-static": "^0.7.8",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "style-loader": "^0.13.1",
+    "devtool": "^2.2.0",
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.13.2",
@@ -20,15 +29,8 @@
     "eslint-plugin-jsx-a11y": "^2.1.0",
     "eslint-plugin-react": "^6.1.2",
     "extract-text-webpack-plugin": "^1.0.1",
-    "html-webpack-plugin": "^2.22.0",
-    "milligram": "^1.1.0",
-    "node-static": "^0.7.8",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.1"
+    "html-webpack-plugin": "^2.22.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
