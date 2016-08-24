@@ -25,11 +25,11 @@ let Results = (user) => (
                 <td>2</td>
                 <td>22-28.08.16</td>
                 <td>Отжимания</td>
-                <td>225/500</td>
+                <td>250/500</td>
             </tr>
             </tbody>
         </table>
-        <p className='float-right'><small>Таблица 3 Результаты</small></p>
+        <p className={'float-right'}><small>Таблица 3 Результаты</small></p>
     </section>);
 
 export default Results;
