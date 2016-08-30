@@ -27,6 +27,12 @@ let Results = (user) => (
                 <td>Отжимания</td>
                 <td>500/500</td>
             </tr>
+            <tr>
+                <td>3</td>
+                <td>29-04.09.16</td>
+                <td>Подтягивания</td>
+                <td>50/250</td>
+            </tr>
             </tbody>
         </table>
         <p className={'float-right'}><small>Таблица 3 Результаты</small></p>
