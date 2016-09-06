@@ -3,7 +3,6 @@ import Nav from './Nav.jsx';
 import Description from './Description.jsx';
 import Workouts from './Workouts.jsx';
 import Quotes from './Quotes.jsx';
-import Results from './Results.jsx';
 import Walks from './Walks.jsx';
 import Footer from './Footer.jsx';
 import Logo from './Logo.jsx';
@@ -11,8 +10,8 @@ import Logo from './Logo.jsx';
 let Main = () => {
     const tableId = 'table1';
     const links = [
-        {title: 'результаты', link: '#'}
-    ]
+        { title: 'результаты', link: '/results' }
+    ];
 
     return (
         <main className="wrapper logo">
@@ -22,7 +21,6 @@ let Main = () => {
             <Workouts tableId={tableId}/>
             <Quotes />
             <Walks />
-            <Results user={{ name: 'Egor', results: [] }} />
             <Footer />
         </main>
     );
