@@ -10,6 +10,7 @@ module.exports = {
 	module: {
 		loaders: [
 			{ test: /\.css$/, loader: 'style!css' },
+			{ test: /\.(png|woff|woff2|eot|ttf|svg|jpg)$/, loader: 'url-loader?limit=100000' },
 			{
 				test: /\.jsx?$/, exclude: /(node_modules|bower_components)/, loader: 'babel', query: { presets: ['es2015', 'stage-0', 'react'] }
 			}

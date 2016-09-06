@@ -1,3 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    background: url('imgs/old_tools.jpg') 50% 0;
+    background-repeat: repeat-x;
+    padding-top: 580px;
+    margin-top: 2.5rem;
+}
+
 .wrapper footer {
     text-align: center;
+}
+
+.navigation {
+    max-width: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgb(244, 245, 246);
+    border-bottom: .1rem solid rgb(209, 209, 209);
+    display: block;
+    height: 5.2rem;
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+    max-width: 800px;
+}
+
+.logo2 {
+    display: inline-block;
+    height: 5.2rem;
+    line-height: 5.2rem;
+}
+
+.links {
+    display: inline-block;
+    margin: 0 2.5rem 0 0;
+    height: 5.2rem;
+}
+
+.link {
+    list-style: none;
+    height: 5.2rem;
+    line-height: 5.2rem;
+    float: left;
+    margin-bottom: 0;
+    margin-left: 2.5rem;
+    position: relative;
 }
