@@ -41,7 +41,7 @@ let Results = (user) => (
             </tr>
             </tbody>
         </table>
-        <p className={'float-right'}><small>Таблица 3 Результаты</small></p>
+        <p className={'float-right'}><small>Таблица 1 {user.name}</small></p>
     </section>);
 
 export default Results;
