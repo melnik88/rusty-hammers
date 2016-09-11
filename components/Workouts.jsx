@@ -35,11 +35,18 @@ const Workouts = ({
 		}, {
 			name: 'Подтягивания',
 			repeats: 250,
-			description: ''
+			description: [<a href="http://www.mhealth.ru/form/fitness/28-uprazhnenij-na-turnike-dlya-atletov-lyubogo-urovnya">28 упражнений на турнике для атлетов любого уровня</a>,
+				<br/>,
+				<a href="http://olimp.kcbux.ru/Raznoe/gto/ispytaniy/003-isp-podtygivaniy.html" >Подтягивания из виса лежа на низкой перекладине </a>
+			]
 		}, {
 			name: 'Берпи',
 			repeats: 250,
-			description: ''
+			description: [<a href="http://justfitnes.ru/berpi-texnika-vypolneniya/">Берпи — техника выполнения</a>,
+				<br/>,
+				<strong>Прим RH:</strong>,
+				' упражнение очень энергоемкое. Если после сета из 15 повторений вы почувствовали головокружение или упадок сил в следующем сете следует снизить количество повторений'
+			]
 		}, {
 			name: 'Скакалка',
 			repeats: '20 мин',

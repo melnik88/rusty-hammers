@@ -2,8 +2,8 @@
 
 import './node_modules/milligram/dist/milligram.min.css';
 import './style.css';
-import Main from './components/main.jsx';
-import Results from './components/results.jsx';
+import Main from './components/Main.jsx';
+import Results from './components/Results.jsx';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
