@@ -1,6 +1,8 @@
 import React from 'react';
 import Nav from './Nav.jsx';
 import ResultTable from './ResultTable.jsx';
+import { links } from './constants.jsx';
+
 let Results = () => {
 
     const egor = {
@@ -11,13 +13,10 @@ let Results = () => {
             { days: '29.08-04.09.16', workout: 'Подтягивания', total: '50/0/45/45/0/0' },
             { days: '5-11.09.16', workout: 'Подтягивания<br/>Берпи', total: '15/30/30/35<br/>30/30/15/30/0/15/70' },
             { days: '12-18.09.16', workout: 'Пресс', total: '0/0/90/90/45' },
-            { days: '19-25.09.16', workout: 'Брусья<br/>Пресс', total: '0/30/30/15/0/<br/>0/90/45/0/0' }
+            { days: '19-25.09.16', workout: 'Брусья<br/>Пресс', total: '0/30/30/15/0/<br/>0/90/45/0/0' },
+            { days: '26.09-02.10.16', workout: 'Брусья<br/>Пресс<br>Лестницы', total: '15/15/15/0/15/<br/>2/2/2/2/2' }
         ]
     };
-
-	const links = [
-		{ title: 'результаты', link: '/results' }
-	];
 
     return (
 			<main>

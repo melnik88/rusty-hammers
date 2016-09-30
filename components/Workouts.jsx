@@ -54,7 +54,7 @@ const Workouts = ({
 		}, {
 			name: 'Пресс',
 			repeats: 1000,
-			description: ''
+			description: 'http://www.mhealth.ru/form/fitness/kak-nakachat-kubiki-posle-20-30-i-40-let/'
 		}, {
 			name: 'Прыжки на бокс',
 			repeats: 250,
@@ -68,8 +68,8 @@ const Workouts = ({
 			repeats: '20 мин',
 			description: ''
 		}, {
-			name: 'Подъем по эскалатор пешком',
-			repeats: '20 лестниц',
+			name: 'Подъем по эскалатору пешком',
+			repeats: '20 самых длинных лестниц',
 			description: ''
 		}
 	];

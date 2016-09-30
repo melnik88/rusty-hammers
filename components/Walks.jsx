@@ -2,8 +2,11 @@
  * Created by egor on 18.08.16.
  */
 import React from 'react';
+import Nav from './Nav.jsx';
+import { links } from './constants.jsx';
 
 const Walks = () => {
+
 	const walks = [
 		{
 			title: 'от Новогиреево до Таганской',
@@ -45,10 +48,19 @@ const Walks = () => {
 			distance: 17,
 			link: 'https://yandex.ru/maps/213/moscow/?ll=37.585414%2C55.701629&z=13&mode=routes&text=%D0%BA%D0%BE%D0%BB%D0%BE%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BC%D0%B5%D1%82%D1%80%D0%BE&sll=37.620393%2C55.740017&sspn=2.009125%2C0.578737&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D37.664%252C55.678%26spn%3D0.001%252C0.001%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%259C%25D0%25BE%25D1%2581%25D0%25BA%25D0%25B2%25D0%25B0%252C%2520%25D0%2597%25D0%25B0%25D0%25BC%25D0%25BE%25D1%2581%25D0%25BA%25D0%25B2%25D0%25BE%25D1%2580%25D0%25B5%25D1%2586%25D0%25BA%25D0%25B0%25D1%258F%2520%25D0%25BB%25D0%25B8%25D0%25BD%25D0%25B8%25D1%258F%252C%2520%25D0%25BC%25D0%25B5%25D1%2582%25D1%2580%25D0%25BE%2520%25D0%259A%25D0%25BE%25D0%25BB%25D0%25BE%25D0%25BC%25D0%25B5%25D0%25BD%25D1%2581%25D0%25BA%25D0%25B0%25D1%258F&rtext=55.678407%2C37.663827~55.678927%2C37.563437~55.736164%2C37.516925&rtt=pd',
 			description: 'Сбор в 14:20 возле станции метро Коломенская'
+		},
+		{
+			title: 'от Ботанического сада до Пушкинской',
+			date: '2.10.16',
+			distance: 16,
+			link: 'https://yandex.ru/maps/213/moscow/?source=serp_navig&ll=37.605068%2C55.813127&z=13&ol=biz&oid=1295225505&mode=routes&rtext=55.845501%2C37.639895~55.830457%2C37.554969~55.765747%2C37.603900&rtt=pd',
+			description: 'Сбор в 11:00 возле станции метро Ботанический сад'
 		}
 	];
 
 	return (
+		<main>
+		<Nav links={links} />
 		<section className="container clearfix">
 			<h3>Прогулки</h3>
 			<table>
@@ -75,7 +87,8 @@ const Walks = () => {
 			<p className="float-right">
 				<small>Таблица 2 Прогулки</small>
 			</p>
-		</section>);
+		</section>
+		</main>);
 };
 
 export default Walks;
